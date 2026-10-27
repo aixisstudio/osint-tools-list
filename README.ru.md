@@ -75,6 +75,42 @@ _Подробное содержимое (списки, ссылки, описа
 
 > ⚠️ **Legal note**: OSINT tools are for lawful research, journalism, security work and CTFs only. Respect privacy laws (GDPR, etc.) in your jurisdiction.
 
+## 🖼️ Image & Media OSINT
+
+| Tool | Description |
+|---|---|
+| [Google Lens](https://lens.google.com/) | Reverse image search — find sources |
+| [TinEye](https://tineye.com/) | The original reverse image search |
+| [InVID](https://www.invid-project.eu/) | Video verification toolkit |
+| [RevEye](https://github.com/franciscod/RevEye) | Multi-engine reverse search |
+
+## 🏢 Business & Domain Intel
+
+| Tool | Description |
+|---|---|
+| [VirusTotal](https://www.virustotal.com/) | Files, URLs, domains — reputation + relations |
+| [urlscan.io](https://urlscan.io/) | Visual site analysis with screenshots |
+| [DNSdumpster](https://dnsdumpster.com/) | DNS recon maps |
+| [ViewDNS](https://viewdns.info/) | 30+ DNS/IP investigation tools |
+| [Whoxy](https://www.whoxy.com/) | WHOIS history |
+
+## 📊 Data & People Databases
+
+| Tool | Description |
+|---|---|
+| [TruePeopleSearch](https://www.truepeoplesearch.com/) | US public records (privacy risk!) |
+| [IntelTechniques](https://inteltechniques.com/) | Michael Bazzell's toolkit |
+| [OSINT Combine](https://www.osintcombine.com/) | Professional-grade resources |
+| [Bellingcat Toolkit](https://bellingcat.gitbook.io/) | The investigators' bible |
+
+## 🗺️ Geolocation Practice
+
+| Tool | Description |
+|---|---|
+| [GeoGuessr](https://www.geoguessr.com/) | The game that teaches terrain reading |
+| [TimeGuessr](https://timeguessr.com/) | Same + era estimation |
+| [OpenStreetMap](https://www.openstreetmap.org/) | The map behind everything |
+
 ---
 ## Участие
 
