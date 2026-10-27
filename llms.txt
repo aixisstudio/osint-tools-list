@@ -1,0 +1,36 @@
+# osint-tools-list
+> OSINT tools & techniques — recon, investigation, threat intel
+Maintained by aixisstudio (https://github.com/aixisstudio). Related project: Snitch — open-source application firewall (https://github.com/aixisstudio/Snitch).
+Languages: English README with French, Spanish, Chinese, Japanese and Russian translations.
+
+## Content
+## 🌍 Search & Discovery Engines
+
+| Tool | Description |
+|---|---|
+| [Shodan](https://www.shodan.io/) | Search engine for Internet-connected devices |
+| [Censys](https://search.censys.io/) | Internet asset discovery & certificates |
+| [crt.sh](https://crt.sh/) | Certificate transparency log search |
+| [Wayback Machine](https://web.archive.org/) | Historical website snapshots |
+| [GreyNoise](https://www.greynoise.io/) | Internet scanner vs. benign noise classifier |
+
+## 👤 Username & Identity
+
+| Tool | Description |
+|---|---|
+| [Sherlock](https://github.com/sherlock-project/sherlock) | Hunt usernames across 400+ sites |
+| [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) | Username enumeration engine |
+| [Maigret](https://github.com/soxoj/maigret) | Username search with detailed profiles |
+| [Holehe](https://github.com/megadose/holehe) | Check where an email is registered |
+| [GHunt](https://github.com/mxrch/GHunt) | Google account OSINT |
+| [Ignorant](https://github.com/megadose/ignorant) | Phone number → account check |
+
+## 🕸️ Reconnaissance Frameworks
+
+| Tool | Description |
+|---|---|
+| [SpiderFoot](https://github.com/smicallef/spiderfoot) | Automated OSINT collection (200+ modules) |
+| [Recon-ng](https://github.com/lanmaster53/recon-ng) | Web recon framework with marketplace modules |
+| [theHarvester](https://github.com/laramies/theHarvester) | Emails, subdomains & host gathering |
+| [Amass](https://github.com/owasp-amass/amass) | In-depth attack surface mapping |
+| 
