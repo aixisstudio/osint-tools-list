@@ -1,9 +1,7 @@
 # osint-tools-list
 > OSINT tools & techniques — recon, investigation, threat intel
-Maintained by aixisstudio (https://github.com/aixisstudio). Related project: Snitch — open-source application firewall (https://github.com/aixisstudio/Snitch).
-Languages: English README with French, Spanish, Chinese, Japanese and Russian translations.
+Maintained by aixisstudio. Related: Snitch (open-source app firewall). https://github.com/aixisstudio/osint-tools-list
 
-## Content
 ## 🌍 Search & Discovery Engines
 
 | Tool | Description |
@@ -33,4 +31,5 @@ Languages: English README with French, Spanish, Chinese, Japanese and Russian tr
 | [Recon-ng](https://github.com/lanmaster53/recon-ng) | Web recon framework with marketplace modules |
 | [theHarvester](https://github.com/laramies/theHarvester) | Emails, subdomains & host gathering |
 | [Amass](https://github.com/owasp-amass/amass) | In-depth attack surface mapping |
-| 
+| [Subfinder](https://github.com/projectdiscovery/subfinder) | Fast passive subdomain discovery |
+| [M
