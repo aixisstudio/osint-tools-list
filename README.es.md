@@ -4,112 +4,110 @@
 
 Herramientas y técnicas OSINT — recon, investigación, intel
 
-_El contenido detallado (listas, enlaces, descripciones) está en inglés por mantenibilidad — las secciones siguientes te guían._
+## 🌍 Buscar &gt; Discovery Engines
 
-## 🌍 Search & Discovery Engines
-
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [Shodan](https://www.shodan.io/) | Search engine for Internet-connected devices |
-| [Censys](https://search.censys.io/) | Internet asset discovery & certificates |
-| [crt.sh](https://crt.sh/) | Certificate transparency log search |
-| [Wayback Machine](https://web.archive.org/) | Historical website snapshots |
-| [GreyNoise](https://www.greynoise.io/) | Internet scanner vs. benign noise classifier |
+Silencio [Shodan](https://www.shodan.io/)   Motor de búsqueda para dispositivos conectados a Internet Silencio
+Silencio [Censys] (https://search.censys.io/) vivieron el descubrimiento de activos en Internet
+Silencio [crt.sh](https://crt.sh/)
+[Wayback Machine] (https://web.archive.org/) Silencio Página web histórica instantáneas
+Silencio [GreyNoise] (https://www.greynoise.io/)
 
-## 👤 Username & Identity
+## ❌ Nombre de usuario &gt; Identidad
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [Sherlock](https://github.com/sherlock-project/sherlock) | Hunt usernames across 400+ sites |
-| [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) | Username enumeration engine |
-| [Maigret](https://github.com/soxoj/maigret) | Username search with detailed profiles |
-| [Holehe](https://github.com/megadose/holehe) | Check where an email is registered |
-| [GHunt](https://github.com/mxrch/GHunt) | Google account OSINT |
-| [Ignorant](https://github.com/megadose/ignorant) | Phone number → account check |
+Silencio [Sherlock](https://github.com/sherlock-project/sherlock) Silencio Nombres de usuario de Hunt en más de 400 sitios
+[WhatsMyName] (https://github.com/WebBreacher/WhatsMyName)
+Silencio [Maigret] (https://github.com/soxoj/maigret) Silencio Búsqueda de usuario con perfiles detallados
+Silencio [Holehe](https://github.com/megadose/holehe) Silencio Compruebe donde se registra un correo electrónico
+confidencialidad [GHunt] (https://github.com/mxrch/GHunt)
+Silencio [Ignorante] (https://github.com/megadose/ignorant) Silencio Número de teléfono → control de cuenta
 
-## 🕸️ Reconnaissance Frameworks
+## 🕸{ &gt; Reconnaissance Frameworks
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [SpiderFoot](https://github.com/smicallef/spiderfoot) | Automated OSINT collection (200+ modules) |
-| [Recon-ng](https://github.com/lanmaster53/recon-ng) | Web recon framework with marketplace modules |
-| [theHarvester](https://github.com/laramies/theHarvester) | Emails, subdomains & host gathering |
-| [Amass](https://github.com/owasp-amass/amass) | In-depth attack surface mapping |
-| [Subfinder](https://github.com/projectdiscovery/subfinder) | Fast passive subdomain discovery |
-| [Maltego](https://www.maltego.com/) | Link-analysis & relationship mapping (community edition) |
-| [OSINT Framework](https://osintframework.com/) | Curated directory of OSINT resources |
+[SpiderFoot] (https://github.com/smicallef/spiderfoot) ← Automated OSINT collection (200+ modules) Silencio
+Silencio [Recon-ng] (https://github.com/lanmaster53/recon-ng)
+[ElHarvester] (https://github.com/laramies/theHarvester) Silencio Correos electrónicos, subdominios &amp; hospedaje hospedaje
+Silencio [Amasa] (https://github.com/owasp-amass/amass)
+Silencio [Subfinder] (https://github.com/projectdiscovery/subfinder)
+Silencio [Maltego](https://www.maltego.com/) Silencio Link-analysis & relaciones cartografía (edición comunitaria)
+Silencio [OSINT Framework] (https://osintframework.com/)
 
-## 📧 Email & Breach Data
+## 📧 Email &gt; Breach Data
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [Have I Been Pwned](https://haveibeenpwned.com/) | Check breach exposure |
-| [DeHashed](https://www.dehashed.com/) | Breach database search |
-| [h8mail](https://github.com/khast3x/h8mail) | Email breach hunting from multiple sources |
-| [Epieos](https://epieos.com/) | Reverse email lookup |
+Silencio [He estado Pwned] (https://haveibeenpwned.com/)
+Silencio [DeHashed] (https://www.dehashed.com/)
+Silencio [h8mail](https://github.com/khast3x/h8mail)
+[Epieos] (https://epieos.com/)
 
-## 📸 Media & Geolocation
+## 📸 Media &gt; Geolocation
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [ExifTool](https://exiftool.org/) | Metadata extraction swiss-army knife |
-| [FotoForensics](https://fotoforensics.com/) | Error-level image analysis |
-| [GeoSpy](https://geospy.ai/) | AI-assisted photo geolocation |
-| [SunCalc](https://www.suncalc.org/) | Sun position for time/place verification |
+[ExifTool] (https://exiftool.org/)
+Silencio [Fotografía] (https://fotoforensics.com/) Silencio Análisis de imagen a nivel de error
+Silencio [GeoSpy] (https://geospy.ai/)
+Silencio [SunCalc] (https://www.suncalc.org/)
 
-## 📱 Phone & Network Intel
+## 📱 Phone &amp; Network Intel
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [PhoneInfoga](https://github.com/sundowndev/phoneinfoga) | Phone number OSINT |
-| [ipinfo.io](https://ipinfo.io/) | IP geolocation & ASN lookup |
-| [BGPView](https://bgpview.io/) | BGP/ASN intelligence |
+Silencio [PhoneInfoga] (https://github.com/sundowndev/phoneinfoga)
+[ipinfo.io] (https://ipinfo.io/) TENIDO geolocalización IP &gt; ASN lookup
+Silencio [BGPView] (https://bgpview.io/)
 
-## 🧰 Virtual Machines & Toolkits
+## 🧰 Máquinas Virtuales &amp; Herramientas
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [Buscador](https://inteltechniques.com/buscador/) | Pre-built OSINT VM |
-| [Trace Labs OSINT VM](https://www.tracelabs.org/) | CTF-oriented OSINT distro |
-| [CSI Linux](https://csilinux.com/) | Cyber investigations distribution |
+[Buscador] (https://inteltechniques.com/buscador/)
+[Trace Labs OSINT VM] (https://www.tracelabs.org/)
+Silencio [CSI Linux] (https://csilinux.com/)
 
-> ⚠️ **Legal note**: OSINT tools are for lawful research, journalism, security work and CTFs only. Respect privacy laws (GDPR, etc.) in your jurisdiction.
+* Nota legal**: Las herramientas OSINT son sólo para investigación legal, periodismo, trabajo de seguridad y CTFs. Respetar las leyes de privacidad (GDPR, etc.) en su jurisdicción.
 
-## 🖼️ Image & Media OSINT
+## 🖼ف Image &gt; Media OSINT
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [Google Lens](https://lens.google.com/) | Reverse image search — find sources |
-| [TinEye](https://tineye.com/) | The original reverse image search |
-| [InVID](https://www.invid-project.eu/) | Video verification toolkit |
-| [RevEye](https://github.com/franciscod/RevEye) | Multi-engine reverse search |
+Silencio [Google Lens] (https://lens.google.com/)
+[TinEye] (https://tineye.com/) La búsqueda de imagen inversa original
+Silencio [InVID] (https://www.invid-project.eu/)
+Silencio [RevEye] (https://github.com/franciscod/RevEye)
 
-## 🏢 Business & Domain Intel
+## 🏢 Business &gt; Domain Intel
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [VirusTotal](https://www.virustotal.com/) | Files, URLs, domains — reputation + relations |
-| [urlscan.io](https://urlscan.io/) | Visual site analysis with screenshots |
-| [DNSdumpster](https://dnsdumpster.com/) | DNS recon maps |
-| [ViewDNS](https://viewdns.info/) | 30+ DNS/IP investigation tools |
-| [Whoxy](https://www.whoxy.com/) | WHOIS history |
+Silencio [VirusTotal](https://www.virustotal.com/) Silencio Archivos, URLs, dominios — reputación + relaciones
+Silencio [urlscan.io] (https://urlscan.io/)
+Silencio [DNSdumpster] (https://dnsdumpster.com/)
+[ViewDNS] (https://viewdns.info/) Silencio 30+ Herramientas de investigación DNS/IP
+(https://www.whoxy.com/)
 
-## 📊 Data & People Databases
+Datos &quot; Bases de datos &quot;
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [TruePeopleSearch](https://www.truepeoplesearch.com/) | US public records (privacy risk!) |
-| [IntelTechniques](https://inteltechniques.com/) | Michael Bazzell's toolkit |
-| [OSINT Combine](https://www.osintcombine.com/) | Professional-grade resources |
-| [Bellingcat Toolkit](https://bellingcat.gitbook.io/) | The investigators' bible |
+Silencio [TruePeopleSearch] (https://www.truepeoplesearch.com/)
+[IntelTechniques] (https://inteltechniques.com/)
+[OSINT Combine] (https://www.osintcombine.com/)
+[Bellingcat Toolkit] (https://bellingcat.gitbook.io/) La Biblia de los investigadores
 
-## 🗺️ Geolocation Practice
+## 🗺Пле Geolocation Practice
 
-| Tool | Description |
+← Herramienta Silencioso
 |---|---|
-| [GeoGuessr](https://www.geoguessr.com/) | The game that teaches terrain reading |
-| [TimeGuessr](https://timeguessr.com/) | Same + era estimation |
-| [OpenStreetMap](https://www.openstreetmap.org/) | The map behind everything |
+[GeoGuessr] (https://www.geoguessr.com/) El juego que enseña la lectura del terreno
+[TimeGuessr] (https://timeguessr.com/) Silencio Mismo + estimación de la era
+[OpenStreetMap] (https://www.openstreetmap.org/) El mapa detrás de todo
 
 ---
 ## Contribuir
