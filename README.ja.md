@@ -4,112 +4,110 @@
 
 OSINT ツールとテクニック — 偵察・調査・脅威インテリジェンス
 
-_詳細なコンテンツ（リスト・リンク・説明）は保守のため英語です。以下のセクションがガイドになります。_
+## 探索&ディスカバリーエンジン
 
-## 🌍 Search & Discovery Engines
-
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [Shodan](https://www.shodan.io/) | Search engine for Internet-connected devices |
-| [Censys](https://search.censys.io/) | Internet asset discovery & certificates |
-| [crt.sh](https://crt.sh/) | Certificate transparency log search |
-| [Wayback Machine](https://web.archive.org/) | Historical website snapshots |
-| [GreyNoise](https://www.greynoise.io/) | Internet scanner vs. benign noise classifier |
+|【湘丹】(https://www.shodan.io/) | インターネット接続機器の検索エンジン |
+| 【Censys】(https://search.censys.io/) | インターネット資産の発見と証明書 |
+| [crt.sh](https://crt.sh/) | 証明書の透明性ログの検索 |
+| 【Wayback Machine】(https://web.archive.org/) | 過去のサイトスナップ |
+| 【GreyNoise】(https://www.greynoise.io/) | インターネットスキャナ対良性ノイズの分類器 |
 
-## 👤 Username & Identity
+## ユーザー名とアイデンティティ
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [Sherlock](https://github.com/sherlock-project/sherlock) | Hunt usernames across 400+ sites |
-| [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) | Username enumeration engine |
-| [Maigret](https://github.com/soxoj/maigret) | Username search with detailed profiles |
-| [Holehe](https://github.com/megadose/holehe) | Check where an email is registered |
-| [GHunt](https://github.com/mxrch/GHunt) | Google account OSINT |
-| [Ignorant](https://github.com/megadose/ignorant) | Phone number → account check |
+| 【シャロック】(https://github.com/sherlock-project/sherlock) | 400以上のサイトを介したハントユーザ名 |
+| [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) | ユーザー名の列挙エンジン |
+| [Maigret](https://github.com/soxoj/maigret) | プロフィールから探す |
+| [Holehe](https://github.com/megadose/holehe) | メールでのお問い合わせ |
+| 【アクセス】(https://github.com/mxrch/GHunt) | GoogleアカウントOSINT |
+| [登録者](https://github.com/megadose/ignorant) | 電話番号 → アカウントチェック |
 
-## 🕸️ Reconnaissance Frameworks
+## ️️ Reconnaissanceフレームワーク
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [SpiderFoot](https://github.com/smicallef/spiderfoot) | Automated OSINT collection (200+ modules) |
-| [Recon-ng](https://github.com/lanmaster53/recon-ng) | Web recon framework with marketplace modules |
-| [theHarvester](https://github.com/laramies/theHarvester) | Emails, subdomains & host gathering |
-| [Amass](https://github.com/owasp-amass/amass) | In-depth attack surface mapping |
-| [Subfinder](https://github.com/projectdiscovery/subfinder) | Fast passive subdomain discovery |
-| [Maltego](https://www.maltego.com/) | Link-analysis & relationship mapping (community edition) |
-| [OSINT Framework](https://osintframework.com/) | Curated directory of OSINT resources |
+| 【SpiderFoot】(https://github.com/smicallef/spiderfoot) | 自動OSINTコレクション(200+モジュール) |
+| 【Recon-ng】(https://github.com/lanmaster53/recon-ng) | マーケットプレイスモジュールによるWebリコンフレームワーク |
+| [theHarvester](https://github.com/laramies/theHarvester) | メール・サブドメイン・ホスト・ミーティング |
+| 【Amass】(https://github.com/owasp-amass/amass) | 深層攻撃面マッピング |
+| 【サブファインダー】(https://github.com/projectdiscovery/subfinder) | 高速受動サブドメイン発見 |
+| [Maltego](https://www.maltego.com/) | リンク解析&リレーションマッピング |
+| [OSINT Framework](https://osintframework.com/) | OSINTリソースのキュレーションディレクトリ |
 
-## 📧 Email & Breach Data
+## 電子メールとブリーチデータ
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [Have I Been Pwned](https://haveibeenpwned.com/) | Check breach exposure |
-| [DeHashed](https://www.dehashed.com/) | Breach database search |
-| [h8mail](https://github.com/khast3x/h8mail) | Email breach hunting from multiple sources |
-| [Epieos](https://epieos.com/) | Reverse email lookup |
+| [私 養蜂 耕作](https://haveibeenpwned.com/) | チェック違反の暴露 |
+| [DeHashed](https://www.dehashed.com/) | ブリーチデータベース検索 |
+| [h8mail](https://github.com/khast3x/h8mail) | 複数のソースからのメール侵害の狩猟 |
+| 【Epieos】(https://epieos.com/) | 逆メールルックアップ |
 
-## 📸 Media & Geolocation
+##メディア&ジオロケーション
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [ExifTool](https://exiftool.org/) | Metadata extraction swiss-army knife |
-| [FotoForensics](https://fotoforensics.com/) | Error-level image analysis |
-| [GeoSpy](https://geospy.ai/) | AI-assisted photo geolocation |
-| [SunCalc](https://www.suncalc.org/) | Sun position for time/place verification |
+| [ExifTool](https://exiftool.org/) | メタデータ抽出スワッスアームナイフ |
+| 【FotoForensics】(https://fotoforensics.com/) | エラーレベルの画像解析 |
+| 【GeoSpy】(https://geospy.ai/) | AI支援写真のロケーション |
+| [SunCalc](https://www.suncalc.org/) | 時刻・場所の確認 |
 
-## 📱 Phone & Network Intel
+## ◀ 電話&ネットワークインテル
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [PhoneInfoga](https://github.com/sundowndev/phoneinfoga) | Phone number OSINT |
-| [ipinfo.io](https://ipinfo.io/) | IP geolocation & ASN lookup |
-| [BGPView](https://bgpview.io/) | BGP/ASN intelligence |
+| 【電話情報】(https://github.com/sundowndev/phoneinfoga) | 電話番号OSINT |
+| [ipinfo.io](https://ipinfo.io/) | 知財地理位置情報・ASN検索 |
+| 【BGPView】(https://bgpview.io/) | BGP/ASN インテリジェンス |
 
-## 🧰 Virtual Machines & Toolkits
+## バーチャルマシン&ツールキット
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [Buscador](https://inteltechniques.com/buscador/) | Pre-built OSINT VM |
-| [Trace Labs OSINT VM](https://www.tracelabs.org/) | CTF-oriented OSINT distro |
-| [CSI Linux](https://csilinux.com/) | Cyber investigations distribution |
+| 【バスカドール】(https://inteltechniques.com/buscador/) | プレビルドOSINT VM |
+| 【トレースラボOSINT VM】(https://www.tracelabs.org/) | CTF指向OSINT論 |
+| 【CSI Linux】(https://csilinux.com/) | サイバー調査配信 |
 
-> ⚠️ **Legal note**: OSINT tools are for lawful research, journalism, security work and CTFs only. Respect privacy laws (GDPR, etc.) in your jurisdiction.
+> ⚠️**Legal Note**: OSINTツールは、合法的な研究、ジャーナリズム、セキュリティ作業、CTFのみを目的としています。 個人情報保護法(GDPR等)を管轄する。
 
-## 🖼️ Image & Media OSINT
+##イメージ&メディアOSINT
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [Google Lens](https://lens.google.com/) | Reverse image search — find sources |
-| [TinEye](https://tineye.com/) | The original reverse image search |
-| [InVID](https://www.invid-project.eu/) | Video verification toolkit |
-| [RevEye](https://github.com/franciscod/RevEye) | Multi-engine reverse search |
+| 【Googleレンズ】(https://lens.google.com/) | 逆画像検索 — ソース検索 |
+| [TinEye](https://tineye.com/) | オリジナルリバースイメージ検索 |
+| [InVID](https://www.invid-project.eu/) | 動画検証ツールキット |
+| [RevEye](https://github.com/franciscod/RevEye) | マルチエンジンリバース検索 |
 
-## 🏢 Business & Domain Intel
+##ビジネス&ドメインインテル
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [VirusTotal](https://www.virustotal.com/) | Files, URLs, domains — reputation + relations |
-| [urlscan.io](https://urlscan.io/) | Visual site analysis with screenshots |
-| [DNSdumpster](https://dnsdumpster.com/) | DNS recon maps |
-| [ViewDNS](https://viewdns.info/) | 30+ DNS/IP investigation tools |
-| [Whoxy](https://www.whoxy.com/) | WHOIS history |
+| [VirusTotal](https://www.virustotal.com/) | ファイル、URL、ドメイン — 評判 + 関係 |
+| 【urlscan.io】(https://urlscan.io/) | スクリーンショットによるサイト分析 |
+| 【DNSdumpster】(https://dnsdumpster.com/) | DNSリコンマップ |
+| [ViewDNS](https://viewdns.info/) | 30以上のDNS/IP調査ツール |
+| 【Whoxy】(https://www.whoxy.com/) | WHOISの歴史 |
 
-## 📊 Data & People Databases
+## データと人データベース
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [TruePeopleSearch](https://www.truepeoplesearch.com/) | US public records (privacy risk!) |
-| [IntelTechniques](https://inteltechniques.com/) | Michael Bazzell's toolkit |
-| [OSINT Combine](https://www.osintcombine.com/) | Professional-grade resources |
-| [Bellingcat Toolkit](https://bellingcat.gitbook.io/) | The investigators' bible |
+| 【TruePeopleSearch】(https://www.truepeoplesearch.com/) | 米国公開記録(プライバシーリスク) |
+| [IntelTechniques](https://inteltechniques.com/) | マイケル・バッツェルのツールキット |
+| [OSINT Combine](https://www.osintcombine.com/) | プロフェッショナルなリソース |
+| [ベリングキャットツールキット](https://bellingcat.gitbook.io/) | 研究者の聖書 |
 
-## 🗺️ Geolocation Practice
+## ️️ ジオロケーション 練習
 
-| Tool | Description |
+| ツール | 説明 |
 |---|---|
-| [GeoGuessr](https://www.geoguessr.com/) | The game that teaches terrain reading |
-| [TimeGuessr](https://timeguessr.com/) | Same + era estimation |
-| [OpenStreetMap](https://www.openstreetmap.org/) | The map behind everything |
+| 【GeoGuessr】(https://www.geoguessr.com/) | 地形読書を教えるゲーム |
+| 【TimeGuessr】(https://timeguessr.com/) | 同じ + 時代推定 |
+| 【OpenStreetMap】(https://www.openstreetmap.org/) | サイトマップ |
 
 ---
 ## 貢献
