@@ -4,112 +4,110 @@
 
 Инструменты и техники OSINT — разведка, расследования, threat intel
 
-_Подробное содержимое (списки, ссылки, описания) ведётся на английском — разделы ниже помогут сориентироваться._
+##   Поиск и обнаружение
 
-## 🌍 Search & Discovery Engines
-
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [Shodan](https://www.shodan.io/) | Search engine for Internet-connected devices |
-| [Censys](https://search.censys.io/) | Internet asset discovery & certificates |
-| [crt.sh](https://crt.sh/) | Certificate transparency log search |
-| [Wayback Machine](https://web.archive.org/) | Historical website snapshots |
-| [GreyNoise](https://www.greynoise.io/) | Internet scanner vs. benign noise classifier |
+| [Shodan] (https://www.shodan.io/) | Поисковая система для устройств, подключенных к Интернету |
+| [Censys] (https://search.censys.io/) | Открытие и сертификаты интернет-активов
+| [crt.sh] (https://crt.sh/) | Поиск журнала прозрачности сертификата |
+[Wayback Machine] (https://web.archive.org/) | Исторический сайт
+[GreyNoise] (https://www.greynoise.io/) | Интернет-сканер против классификатора доброкачественного шума
 
-## 👤 Username & Identity
+##   Имя пользователя и личность
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [Sherlock](https://github.com/sherlock-project/sherlock) | Hunt usernames across 400+ sites |
-| [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) | Username enumeration engine |
-| [Maigret](https://github.com/soxoj/maigret) | Username search with detailed profiles |
-| [Holehe](https://github.com/megadose/holehe) | Check where an email is registered |
-| [GHunt](https://github.com/mxrch/GHunt) | Google account OSINT |
-| [Ignorant](https://github.com/megadose/ignorant) | Phone number → account check |
+| [Sherlock] (https://github.com/sherlock-project/sherlock) | Поиск имен пользователей на более чем 400 сайтах |
+[WhatsMyName] (https://github.com/WebBreacher/WhatsMyName) | Движок перечисления имени пользователя
+| [Maigret] (https://github.com/soxoj/maigret) | Поиск по имени пользователя с подробными профилями |
+[Holehe] (https://github.com/megadose/holehe) | Проверьте, где зарегистрировано электронное письмо
+[Охота] (https://github.com/mxrch/GHunt) | Учетная запись Google OSINT
+[Невежда] (https://github.com/megadose/ignorant) | Номер телефона → Проверка аккаунта
 
-## 🕸️ Reconnaissance Frameworks
+##  ️ Рамки разведки
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [SpiderFoot](https://github.com/smicallef/spiderfoot) | Automated OSINT collection (200+ modules) |
-| [Recon-ng](https://github.com/lanmaster53/recon-ng) | Web recon framework with marketplace modules |
-| [theHarvester](https://github.com/laramies/theHarvester) | Emails, subdomains & host gathering |
-| [Amass](https://github.com/owasp-amass/amass) | In-depth attack surface mapping |
-| [Subfinder](https://github.com/projectdiscovery/subfinder) | Fast passive subdomain discovery |
-| [Maltego](https://www.maltego.com/) | Link-analysis & relationship mapping (community edition) |
-| [OSINT Framework](https://osintframework.com/) | Curated directory of OSINT resources |
+[SpiderFoot] (https://github.com/smicallef/spiderfoot) | Автоматизированная коллекция OSINT (200+ модулей)
+| [Recon-ng] (https://github.com/lanmaster53/recon-ng) | Веб-разведка с модулями рынка |
+[Harvester] (https://github.com/laramies/theHarvester) | Электронные письма, поддомены и сбор хостов
+[Amass] (https://github.com/owasp-amass/amass) | Углубленное картирование поверхности атаки
+[Subfinder] (https://github.com/projectdiscovery/subfinder) | Быстрое пассивное открытие поддоменов
+[Maltego] (https://www.maltego.com/) | Анализ ссылок и картирование отношений (издание сообщества)
+| [OSINT Framework] (https://osintframework.com/) | Кураторский каталог ресурсов OSINT |
 
-## 📧 Email & Breach Data
+##   Электронная почта и данные о нарушениях
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [Have I Been Pwned](https://haveibeenpwned.com/) | Check breach exposure |
-| [DeHashed](https://www.dehashed.com/) | Breach database search |
-| [h8mail](https://github.com/khast3x/h8mail) | Email breach hunting from multiple sources |
-| [Epieos](https://epieos.com/) | Reverse email lookup |
+[Have I Been Pwned] (https://haveibeenpwned.com/) [Проверить наличие нарушения]
+[DeHashed] (https://www.dehashed.com/) | Поиск базы данных взлома
+| [h8mail] (https://github.com/khast3x/h8mail) | Поиск электронной почты из нескольких источников
+[Epieos] (https://epieos.com/) Обратный поиск по электронной почте
 
-## 📸 Media & Geolocation
+##Медиа и геолокация
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [ExifTool](https://exiftool.org/) | Metadata extraction swiss-army knife |
-| [FotoForensics](https://fotoforensics.com/) | Error-level image analysis |
-| [GeoSpy](https://geospy.ai/) | AI-assisted photo geolocation |
-| [SunCalc](https://www.suncalc.org/) | Sun position for time/place verification |
+[ExifTool] (https://exiftool.org/) | Нож швейцарской армии для извлечения метаданных
+[Фотосудебная экспертиза] (https://fotoforensics.com/) | Анализ изображений на уровне ошибок
+[GeoSpy] (https://geospy.ai/) | Фотогеолокация с помощью ИИ
+[SunCalc] (https://www.suncalc.org/) | Положение Солнца для проверки времени / места
 
-## 📱 Phone & Network Intel
+Телефон и сеть Intel
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [PhoneInfoga](https://github.com/sundowndev/phoneinfoga) | Phone number OSINT |
-| [ipinfo.io](https://ipinfo.io/) | IP geolocation & ASN lookup |
-| [BGPView](https://bgpview.io/) | BGP/ASN intelligence |
+[PhoneInfoga] (https://github.com/sundowndev/phoneinfoga) | Номер телефона OSINT |
+| [ipinfo.io] (https://ipinfo.io/) | IP геолокация и поиск ASN |
+[BGPView] (https://bgpview.io/) | BGP/ASN intelligence |
 
-## 🧰 Virtual Machines & Toolkits
+## Виртуальные машины и инструменты
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [Buscador](https://inteltechniques.com/buscador/) | Pre-built OSINT VM |
-| [Trace Labs OSINT VM](https://www.tracelabs.org/) | CTF-oriented OSINT distro |
-| [CSI Linux](https://csilinux.com/) | Cyber investigations distribution |
+[Бускадор] (https://inteltechniques.com/buscador/) | Предварительно построенный OSINT VM |
+[Trace Labs OSINT VM] (https://www.tracelabs.org/) | CTF-ориентированный дистрибутив OSINT
+[CSI Linux] (https://csilinux.com/) | Распределение кибер-расследований
 
-> ⚠️ **Legal note**: OSINT tools are for lawful research, journalism, security work and CTFs only. Respect privacy laws (GDPR, etc.) in your jurisdiction.
+** Юридическое примечание **: инструменты OSINT предназначены только для законных исследований, журналистики, работы в области безопасности и CTF. Уважайте законы о конфиденциальности (GDPR) в вашей юрисдикции.
 
-## 🖼️ Image & Media OSINT
+##  ️ Изображение и медиа OSINT
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [Google Lens](https://lens.google.com/) | Reverse image search — find sources |
-| [TinEye](https://tineye.com/) | The original reverse image search |
-| [InVID](https://www.invid-project.eu/) | Video verification toolkit |
-| [RevEye](https://github.com/franciscod/RevEye) | Multi-engine reverse search |
+| [Google Lens] (https://lens.google.com/) | Обратный поиск изображений — найти источники |
+[TinEye] (https://tineye.com/) Оригинальный обратный поиск изображений
+| [InVID](https://www.invid-project.eu/) | Инструментарий для проверки видео
+[RevEye] (https://github.com/franciscod/RevEye) | Многомоторный обратный поиск |
 
-## 🏢 Business & Domain Intel
+###Бизнес и домен Intel
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [VirusTotal](https://www.virustotal.com/) | Files, URLs, domains — reputation + relations |
-| [urlscan.io](https://urlscan.io/) | Visual site analysis with screenshots |
-| [DNSdumpster](https://dnsdumpster.com/) | DNS recon maps |
-| [ViewDNS](https://viewdns.info/) | 30+ DNS/IP investigation tools |
-| [Whoxy](https://www.whoxy.com/) | WHOIS history |
+| [VirusTotal] (https://www.virustotal.com/) | Файлы, URL, домены — репутация + отношения |
+| [urlscan.io] (https://urlscan.io/) | Визуальный анализ сайта с помощью скриншотов |
+[DNSdumpster] (https://dnsdumpster.com/) | Карты разведки DNS
+[ViewDNS] (https://viewdns.info/) | 30 + DNS / IP инструменты исследования
+[Whoxy] [https://www.whoxy.com/] [История WHOIS]
 
-## 📊 Data & People Databases
+##  Data Базы данных и людей
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [TruePeopleSearch](https://www.truepeoplesearch.com/) | US public records (privacy risk!) |
-| [IntelTechniques](https://inteltechniques.com/) | Michael Bazzell's toolkit |
-| [OSINT Combine](https://www.osintcombine.com/) | Professional-grade resources |
-| [Bellingcat Toolkit](https://bellingcat.gitbook.io/) | The investigators' bible |
+[TruePeopleSearch] (https://www.truepeoplesearch.com/) | Публичные записи США (риск конфиденциальности!)
+[IntelTechniques] (https://inteltechniques.com/) | Инструментарий Майкла Баззелла |
+| [OSINT Combine] (https://www.osintcombine.com/) | Ресурсы профессионального уровня |
+[Bellingcat Toolkit] (https://bellingcat.gitbook.io/) Библия следователей.
 
-## 🗺️ Geolocation Practice
+##  ️ Практика геолокации
 
-| Tool | Description |
+| Инструмент | Описание
 |---|---|
-| [GeoGuessr](https://www.geoguessr.com/) | The game that teaches terrain reading |
-| [TimeGuessr](https://timeguessr.com/) | Same + era estimation |
-| [OpenStreetMap](https://www.openstreetmap.org/) | The map behind everything |
+[GeoGuessr] (https://www.geoguessr.com/) Игра, которая учит читать местность
+[TimeGuessr] (https://timeguessr.com/) | То же самое + оценка эпохи
+[OpenStreetMap] (https://www.openstreetmap.org/) Карта, стоящая за всем
 
 ---
 ## Участие
