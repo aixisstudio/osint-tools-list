@@ -4,112 +4,110 @@
 
 OSINT 工具与技术 — 侦察、调查、威胁情报
 
-_详细内容（列表、链接、描述）以英文维护 — 以下章节为你指引。_
+# # # # 搜索和发现引擎
 
-## 🌍 Search & Discovery Engines
-
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [Shodan](https://www.shodan.io/) | Search engine for Internet-connected devices |
-| [Censys](https://search.censys.io/) | Internet asset discovery & certificates |
-| [crt.sh](https://crt.sh/) | Certificate transparency log search |
-| [Wayback Machine](https://web.archive.org/) | Historical website snapshots |
-| [GreyNoise](https://www.greynoise.io/) | Internet scanner vs. benign noise classifier |
+[Shodan](https://www.shodan.io/) 腾讯网设备搜索引擎 腾讯网.
+[审查] (https://search.censys.io/) 互联网资产发现和证书 |
+QQ [crt.sh] (https://crt.sh/) QQ 证书透明度日志搜索 QQ
+[Wayback Machine](https://web.archive.org/) 历史网站快照 腾讯网.
+[GreyNoise] (https://www.greynoise.io/) 互联网扫描仪对良性噪声分类器 |
 
-## 👤 Username & Identity
+# # # #% 用户名和身份
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [Sherlock](https://github.com/sherlock-project/sherlock) | Hunt usernames across 400+ sites |
-| [WhatsMyName](https://github.com/WebBreacher/WhatsMyName) | Username enumeration engine |
-| [Maigret](https://github.com/soxoj/maigret) | Username search with detailed profiles |
-| [Holehe](https://github.com/megadose/holehe) | Check where an email is registered |
-| [GHunt](https://github.com/mxrch/GHunt) | Google account OSINT |
-| [Ignorant](https://github.com/megadose/ignorant) | Phone number → account check |
+[Sherlock](https://github.com/sherlock-project/sherlock) 猎杀用户名遍及400+站点 |.
+[WhatsMyName](https://github.com/WebBreacher/WhatsMyName) QQ用户名计数引擎 QQ
+QQ[Maigret](https://github.com/soxoj/maigret) 用户名搜索,详细配置 QQ
+[Holehe](https://github.com/megadose/holehe) 检查电子邮件登记在哪里 {}
+[GHUNT](https://github.com/mxrch/GHunt) Google账号OSINT  .
+(https://github.com/megadose/ignorant) 电话 – 帐号 – 帐号 – 账号 – 账号 –
 
-## 🕸️ Reconnaissance Frameworks
+□ □ 侦察框架
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [SpiderFoot](https://github.com/smicallef/spiderfoot) | Automated OSINT collection (200+ modules) |
-| [Recon-ng](https://github.com/lanmaster53/recon-ng) | Web recon framework with marketplace modules |
-| [theHarvester](https://github.com/laramies/theHarvester) | Emails, subdomains & host gathering |
-| [Amass](https://github.com/owasp-amass/amass) | In-depth attack surface mapping |
-| [Subfinder](https://github.com/projectdiscovery/subfinder) | Fast passive subdomain discovery |
-| [Maltego](https://www.maltego.com/) | Link-analysis & relationship mapping (community edition) |
-| [OSINT Framework](https://osintframework.com/) | Curated directory of OSINT resources |
+* 自动OSINT集(200+模块) * * *
+(https://github.com/lanmaster53/recon-ng)有市场模块的网络侦察框架
+[Harvester] (https://github.com/laramies/theHarvester) QQ 电子邮件,子域和主机集合 QQ
+[阿玛斯] (https://github.com/owasp-amass/amass) 深度攻击地表测绘 |
+[Subfinder](https://github.com/projectdiscovery/subfinder) 快速被动子域发现 |
+[马尔泰戈](https://www.maltego.com/) 链接分析与关系映射(社区版) |.
+[OSINT框架](https://osintframework.com/) OSINT资源解析目录.
 
-## 📧 Email & Breach Data
+^ QQ 电子邮件和违反数据
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [Have I Been Pwned](https://haveibeenpwned.com/) | Check breach exposure |
-| [DeHashed](https://www.dehashed.com/) | Breach database search |
-| [h8mail](https://github.com/khast3x/h8mail) | Email breach hunting from multiple sources |
-| [Epieos](https://epieos.com/) | Reverse email lookup |
+检查破门而入的暴露
+[Dehashed] (https://www.dehashed.com/) 违反数据库搜索 |
+[h8mail](https://github.com/khast3x/h8mail) 来自多个来源的电子邮件破门而入的猎杀 .
+[Epieos] (https://epieos.com/) + 反向电子邮件查询 + 。
 
-## 📸 Media & Geolocation
+# # # # # 媒体和地理位置
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [ExifTool](https://exiftool.org/) | Metadata extraction swiss-army knife |
-| [FotoForensics](https://fotoforensics.com/) | Error-level image analysis |
-| [GeoSpy](https://geospy.ai/) | AI-assisted photo geolocation |
-| [SunCalc](https://www.suncalc.org/) | Sun position for time/place verification |
+[ExifTool] (https://exiftool.org/) 元数据提取 刷兵刀 |
+[FotoForensics](https://fotoforensics.com/) → 错误级图像分析 →
+[GeoSpy](https://geospy.ai/) AI辅助照片地理定位  .
+[SunCalc](https://www.suncalc.org/) 时间/地点核查的太阳位置 |
 
-## 📱 Phone & Network Intel
+# # # # # 电话和网络英特尔
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [PhoneInfoga](https://github.com/sundowndev/phoneinfoga) | Phone number OSINT |
-| [ipinfo.io](https://ipinfo.io/) | IP geolocation & ASN lookup |
-| [BGPView](https://bgpview.io/) | BGP/ASN intelligence |
+[电话Infoga] (https://github.com/sundowndev/phoneinfoga) 电话:OSINT
+QQ [ipinfo.io] (https://ipinfo.io/) IP 地理定位 & ASN 检索 QQ
+[BGPView](https://bgpview.io/) BGP/ASN情报  .
 
-## 🧰 Virtual Machines & Toolkits
+# # # # # 虚拟机和工具包
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [Buscador](https://inteltechniques.com/buscador/) | Pre-built OSINT VM |
-| [Trace Labs OSINT VM](https://www.tracelabs.org/) | CTF-oriented OSINT distro |
-| [CSI Linux](https://csilinux.com/) | Cyber investigations distribution |
+[布斯卡多] (https://inteltechniques.com/buscador/) 预建OSINT VM |.
+[追踪实验室 OSINT VM] (https://www.tracelabs.org/) QQ 面向CTF的OSINT Distro |
+[CSI Linux] (https://csilinux.com/) 腾讯网调查发布 腾讯网.
 
-> ⚠️ **Legal note**: OSINT tools are for lawful research, journalism, security work and CTFs only. Respect privacy laws (GDPR, etc.) in your jurisdiction.
+* ** 法律说明**:OSINT工具只用于合法研究、新闻、安全工作和真相和友谊委员会。 尊重你辖区内的隐私法(GDPR等).
 
-## 🖼️ Image & Media OSINT
+# # # # 图像与媒体 OSINT
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [Google Lens](https://lens.google.com/) | Reverse image search — find sources |
-| [TinEye](https://tineye.com/) | The original reverse image search |
-| [InVID](https://www.invid-project.eu/) | Video verification toolkit |
-| [RevEye](https://github.com/franciscod/RevEye) | Multi-engine reverse search |
+[Google Lens] (https://lens.google.com/) +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+[TinEye] (https://tineye.com/) | 原反向图像搜索QQ
+(https://www.invid-project.eu/) 视频核查工具包
+[RevEye](https://github.com/franciscod/RevEye) QQ多引擎反向搜索 QQ
 
-## 🏢 Business & Domain Intel
+# # # # 商业和域名信息
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [VirusTotal](https://www.virustotal.com/) | Files, URLs, domains — reputation + relations |
-| [urlscan.io](https://urlscan.io/) | Visual site analysis with screenshots |
-| [DNSdumpster](https://dnsdumpster.com/) | DNS recon maps |
-| [ViewDNS](https://viewdns.info/) | 30+ DNS/IP investigation tools |
-| [Whoxy](https://www.whoxy.com/) | WHOIS history |
+QQ[VirusTotal](https://www.virustotal.com/) QQ文件,URL,域名——名声+关系QQ.
+[urlscan.io](https://urlscan.io/) 视觉站点分析有截图 |.
+DNS侦察地图
+[ViewDNS](https://viewdns.info/) + 30+ DNS/IP调查工具 + QQ
+[Whoxy] (https://www.whoxy.com/) ~~WHOIS历史~~
 
-## 📊 Data & People Databases
+^ ^ 数据与人口数据库
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [TruePeopleSearch](https://www.truepeoplesearch.com/) | US public records (privacy risk!) |
-| [IntelTechniques](https://inteltechniques.com/) | Michael Bazzell's toolkit |
-| [OSINT Combine](https://www.osintcombine.com/) | Professional-grade resources |
-| [Bellingcat Toolkit](https://bellingcat.gitbook.io/) | The investigators' bible |
+[True PeopleSearch] (https://www.truepeoplesearch.com/) QQ美国公共记录(隐私风险!).
+迈克尔·巴泽尔的工具包
+(https://www.osintcombine.com/) 专业职等资源
+[钟猫工具箱](https://bellingcat.gitbook.io/) 调查员的圣经
 
-## 🗺️ Geolocation Practice
+^ QQ 地理定位实践
 
-| Tool | Description |
+* 工具 * * 描述 * *
 |---|---|
-| [GeoGuessr](https://www.geoguessr.com/) | The game that teaches terrain reading |
-| [TimeGuessr](https://timeguessr.com/) | Same + era estimation |
-| [OpenStreetMap](https://www.openstreetmap.org/) | The map behind everything |
+[Geoguessr] (https://www.geoguessr.com/) |. 教授地形阅读的游戏 QQ
+[时间guessr](https://timeguessr.com/) 相同+时代估计 |.
+[OpenStreetMap] (https://www.openstreetmap.org/) 腾讯网. 万物背后的地图
 
 ---
 ## 贡献
