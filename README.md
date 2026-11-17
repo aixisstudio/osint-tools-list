@@ -80,6 +80,7 @@ OSINT tools & techniques — recon, investigation, threat intel
 | [Google Lens](https://lens.google.com/) | Reverse image search — find sources |
 | [TinEye](https://tineye.com/) | The original reverse image search |
 | [InVID](https://www.invid-project.eu/) | Video verification toolkit |
+| [Video Reverse Search](https://videoreversesearch.com/) | Extracts keyframes to look for matching copies of a clip. |
 | [RevEye](https://github.com/franciscod/RevEye) | Multi-engine reverse search |
 
 ## 🏢 Business & Domain Intel
