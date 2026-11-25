@@ -110,7 +110,7 @@ OSINT tools & techniques — recon, investigation, threat intel
 | [OpenStreetMap](https://www.openstreetmap.org/) | The map behind everything |
 
 ---
-Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Snitch](https://github.com/aixisstudio/Snitch), the open-source application firewall.
+Maintained by [aixisstudio](https://github.com/aixisstudio) — author of [Wiretap](https://github.com/aixisstudio/Wiretap), the open-source application firewall.
 
 ## License
 
